@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+body,html{height: 100%; width: 100%;overflow:auto;}
+body{display: -webkit-box;-webkit-box-orient: vertical;}
+a{text-decoration: none;color: #000;}
+header{height: 48px; width: 100%;border-bottom: 1px solid #000;}
+.heade{width: 80%; margin: 0 auto; height: 48px; }
+.logo{float: left;}
+.logo img{height: 23px; width: 128px;margin-top: 12px;}
+.nav-a{height: 48px;width: 86px; float: left;text-align: center;line-height: 48px; font-size: 18px;position: relative;}
+.nav-a ul{width: 240px; height: 120px;position: absolute;left: 0;display: none;z-index: 5;}
+.nav-a ul li{height: 60px; background: #C5C5C5; text-align: center; line-height: 60px; border-bottom: 1px dashed #000;}
+.nav-a ul li:hover{background: #555555;}
+.nav-a:hover{background: #C5C5C5;}
+.form{height: 40px; border: 1px solid #000;float: right;width: 290px;margin-top: 4px;}
+.form input:nth-child(1){border: 0; width: 244px; padding-top:10px;}
+.form .iconfont{font-size: 34px;}
+.den{float: right;height: 48px; width: 48px; text-align: center;line-height: 48px;font-size: 12px; margin-left:10px ;}
+.den:hover{background: #C5C5C5;}
+.icone{float: right;height: 48px; width:48px; line-height: 48px;margin:0 5px ;display: none; }
+.icone:hover{background: #F2F2F2;}
+.icone .iconfont{float:right;font-size: 30px;margin-right:9px ;}
+.bane{height: 52px; width: 100%; margin-top: 5px;}
+.bae{height: 52px;width: 80%;background:#A80000;margin:0 auto; text-align: center;line-height: 52px; color: #fff;}
+.bae .iconfont{font-size: 18px;}
+.bae .iconfont a{color: #fff;}
+.beni{height:446px; width: 80%; margin: 0 auto;position: relative;overflow: hidden;}
+.banner{height: 446px; width: 200%;position: absolute;}
+.banner .itme{float: left;height: 446px; width: 50%;background: yellow;}
+.banner .itme img{height: 446px; width: 100%;}
+.beni .lef{position: absolute;font-size: 30px;left:0;top: 246px;z-index: 1;background: #000;color: #fff;height: 60px;line-height: 60px;}
+.beni .rig{position: absolute;font-size: 30px;right:0;top: 246px;z-index: 1;background: #000;color: #fff;height: 60px;line-height: 60px;}
+
+.list{height: 350px; width: 80%; margin: 300px auto 0; }
+.lista{float: left; height:300px; width:22%; margin: 0 10px;-webkit-box-sizing: border-box;}
+.list img{height:170px;width: 100%;}
+.list span{font-size: 18px; line-height: 35px;}
+.list p{font-size: 15px;}
+.guan {display: none;}
+.may{height: 445px;width: 80%;margin:0 auto 0 ;position: relative;}
+.may img{height: 100%;width: 100%;}
+.may p{position: absolute;z-index: 2;font-size: 36px; color: #fff;left: 30px; top:200px;}
+.may span{position: absolute;z-index: 2;font-size: 20px; color: #fff;left: 30px; top:250px;}
+#box1{display: none;}
+.list h2{line-height: 100px; text-align: center;font-size: 36px;}
+.liste{margin-top: 0;}
+
+
+.lun{height: 445px; width: 100%;float: left;overflow: hidden;}
+.lun_a{height: 445px; width: 80%; margin: 0 auto;position: relative;overflow: hidden;}
+
+.lun_b{height: 445px; width: 200%;position: absolute;}
+.lun_b li{height: 445px; width: 50%;background: yellow; float: left;position: absolute;}
+.lun_b .item .itt{height:161px; width: 442px;position: absolute;left: 60px;top:150px;}
+.lun_b .itt h1{font-size:24px;line-height: 50px;}
+.lun_b .item img{height: 445px; width: 100%;}
+.lun_b .item .itte{height:161px; width: 442px;position: absolute;left: 40px;top:150px;}
+.lun_b .itte h1{font-size:24px;line-height: 50px;}
+.lun_b .item1 .itt{height:161px; width: 442px;position: absolute;left: 20px;top:150px;}
+.lun_b .itt h1{font-size:24px;line-height: 50px;}
+.lun_b .item1 img{height: 445px; width: 100%;}
+.lun_b .item1 .itte{height:161px; width: 442px;position: absolute;left: 20px;top:150px;}
+.lun_b .itte h1{font-size:24px;line-height: 50px;}
+.disd{position: absolute;left: 50%;bottom: 20px;z-index:5 ;}
+.disd span{display:block;height: 5px;width: 5px;margin:5px; float: left;border: 1px solid #555;border-radius: 50%;}
+.disd .lefa:hover{background:#000;}
+.disd .rige:hover{background: #000;}
+.tete{height: 245;display: none;}
+footer{height:auto;width:100%;position: relative;background:#F2F2F2;}
+.foot{height: 280px;width: 80%;margin: 0 auto;padding-top: 20px;}
+.foot .lis{float: left;width: 150px;height: 200px;}
+.foot .lis h2{line-height: 32px;font-size: 16px;}
+.foot .lis li{line-height: 28px;font-size: 14px;color: #626262;}
+.bud{float: left;height: 60px; width: 100%;color: #626262;padding-top: 30px;}
+.bud .nini{float: left; margin-right: 50px;font-size: 14px;width: 70px;line-height: 30px;}
+.bud .nin{float: left;margin: 0 10px;font-size: 14px;}
